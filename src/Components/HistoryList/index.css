@@ -1,0 +1,78 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+
+.time {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 15px;
+  width: 100px;
+}
+
+.domain-container {
+  display: flex;
+  align-items: center;
+}
+
+.domain-logo {
+  width: 25px;
+  height: 25px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.domain-name {
+  color: #475569;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.domain-link {
+  color: #64748b;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .list-container {
+    flex-direction: row;
+  }
+
+  .domain-container {
+    width: 100%;
+  }
+
+  .details-container {
+    flex-direction: row;
+  }
+
+  .domain-logo {
+    width: 22px;
+    height: 22px;
+  }
+
+  .domain-name {
+    margin-right: 12px;
+  }
+}
